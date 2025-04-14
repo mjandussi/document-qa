@@ -5,7 +5,7 @@ from openai import OpenAI
 st.title("📄 Converse com seu arquivo Txt ou Md")
 st.write(
     "Faça o Upload do arquivo e faça a pergunta – o GPT irá responder! "
-    "Para udar este app, você precisa fornecer sua chave da OpenAI API, caso não tenha pode obter aqui [here](https://platform.openai.com/account/api-keys). "
+    "Para usar este app, você precisa fornecer sua chave da OpenAI API, caso não tenha pode obter aqui [here](https://platform.openai.com/account/api-keys). "
 )
 
 # Ask user for their OpenAI API key via `st.text_input`.
